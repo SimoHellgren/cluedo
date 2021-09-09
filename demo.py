@@ -2,7 +2,7 @@
     Turn order and other stuff do not adhere to actual gameplay.
 '''
 
-from models import Player, Card, Suspect, Weapon, Room, FactType, Fact, add_fact
+from models import Player, Suspect, Weapon, Room, FactType, Fact, add_fact
 
 
 suspects = list(map(Suspect, ('Mr. Blue', 'Lady in Red', 'Black Dog')))
